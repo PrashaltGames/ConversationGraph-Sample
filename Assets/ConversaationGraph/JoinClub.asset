@@ -26,8 +26,8 @@ MonoBehaviour:
     <TypeName>k__BackingField: ConversationGraph.Editor.Foundation.Nodes.KeyNodes.EndNode
     <Rect>k__BackingField:
       serializedVersion: 2
-      x: 1696
-      y: 137
+      x: 2120
+      y: 149
       width: 68
       height: 77
     <Json>k__BackingField: '{"_nextDataIds":[]}'
@@ -35,8 +35,8 @@ MonoBehaviour:
     <TypeName>k__BackingField: ConversationGraph.Editor.Foundation.Nodes.ConversationNode.NarratorNode
     <Rect>k__BackingField:
       serializedVersion: 2
-      x: 177
-      y: 137
+      x: -10
+      y: 166
       width: 530
       height: 227
     <Json>k__BackingField: '{"_nextDataIds":["b994f76a-26e1-427f-be24-c3ed3bbec796"],"_messageList":["A
@@ -47,8 +47,8 @@ MonoBehaviour:
     <TypeName>k__BackingField: ConversationGraph.Editor.Foundation.Nodes.ConversationNode.SpeakerNode
     <Rect>k__BackingField:
       serializedVersion: 2
-      x: 565
-      y: 137
+      x: 542
+      y: 159
       width: 188
       height: 241
     <Json>k__BackingField: '{"_nextDataIds":["d67dc40e-103a-498b-b1e6-7f127f7e810d"],"_messageList":["Huh...
@@ -57,7 +57,7 @@ MonoBehaviour:
     <TypeName>k__BackingField: ConversationGraph.Editor.Foundation.Nodes.ConversationNode.SpeakerNode
     <Rect>k__BackingField:
       serializedVersion: 2
-      x: 913
+      x: 1054
       y: 137
       width: 248
       height: 241
@@ -67,7 +67,7 @@ MonoBehaviour:
     <TypeName>k__BackingField: ConversationGraph.Editor.Foundation.Nodes.ConversationNode.SpeakerNode
     <Rect>k__BackingField:
       serializedVersion: 2
-      x: 1114
+      x: 1302
       y: 137
       width: 136
       height: 241
@@ -77,18 +77,18 @@ MonoBehaviour:
     <TypeName>k__BackingField: ConversationGraph.Editor.Foundation.Nodes.ConversationNode.SpeakerNode
     <Rect>k__BackingField:
       serializedVersion: 2
-      x: 1276
-      y: 149
+      x: 1472
+      y: 137
       width: 206
       height: 241
-    <Json>k__BackingField: '{"_nextDataIds":["b10877ba-f73f-4d43-9bf9-0452e4764f52"],"_messageList":["That''s
+    <Json>k__BackingField: '{"_nextDataIds":["9dddc5c6-b51e-40f2-9dfe-672ae4cd7f88"],"_messageList":["That''s
       not true.","There is still a lot of room for growth.\nLet''s work together."],"_speaker":"{Lead}","_animation":{"rid":1000},"references":{"version":2,"RefIds":[{"rid":1000,"type":{"class":"DefaultAnimation","ns":"ConversationGraph.Runtime.Core.Animation","asm":"ConversationGraph.Runtime"},"data":{}}]}}'
   - <Id>k__BackingField: b10877ba-f73f-4d43-9bf9-0452e4764f52
     <TypeName>k__BackingField: ConversationGraph.Editor.Foundation.Nodes.ConversationNode.SpeakerNode
     <Rect>k__BackingField:
       serializedVersion: 2
-      x: 1499
-      y: 149
+      x: 1883
+      y: 63
       width: 136
       height: 241
     <Json>k__BackingField: '{"_nextDataIds":["185ec5a4-7f8b-4d30-8db1-77d900d0240f"],"_messageList":["Yes,
@@ -97,8 +97,8 @@ MonoBehaviour:
     <TypeName>k__BackingField: ConversationGraph.Editor.Foundation.Nodes.TimelineNodes.TimelineNode
     <Rect>k__BackingField:
       serializedVersion: 2
-      x: -188
-      y: 155
+      x: -332
+      y: 166
       width: 322
       height: 97
     <Json>k__BackingField: '{"_nextDataIds":["61833c12-fc84-4e4f-82ef-dc141fe9434e"],"_assetGuid":"21755467c1b6aa24a91bf33ed4299f64"}'
@@ -106,39 +106,67 @@ MonoBehaviour:
     <TypeName>k__BackingField: ConversationGraph.Editor.Foundation.Nodes.TimelineNodes.TimelineNode
     <Rect>k__BackingField:
       serializedVersion: 2
-      x: 655
-      y: 217
+      x: 753
+      y: 159
       width: 291
       height: 97
     <Json>k__BackingField: '{"_nextDataIds":["91b8ea1a-e77f-4287-895c-5929314edefd"],"_assetGuid":"f84ec536a78e83d42b85b359942e0920"}'
+  - <Id>k__BackingField: 9dddc5c6-b51e-40f2-9dfe-672ae4cd7f88
+    <TypeName>k__BackingField: ConversationGraph.Editor.Foundation.Nodes.LogicNodes.SelectNode
+    <Rect>k__BackingField:
+      serializedVersion: 2
+      x: 1719
+      y: 161
+      width: 124
+      height: 101
+    <Json>k__BackingField: '{"_nextDataIds":["b10877ba-f73f-4d43-9bf9-0452e4764f52","a4eaf25f-429d-48f7-9ba1-8651e2bd197c"],"_selectTexts":["Yes!","No..."]}'
+  - <Id>k__BackingField: a4eaf25f-429d-48f7-9ba1-8651e2bd197c
+    <TypeName>k__BackingField: ConversationGraph.Editor.Foundation.Nodes.ConversationNode.SpeakerNode
+    <Rect>k__BackingField:
+      serializedVersion: 2
+      x: 1883
+      y: 324
+      width: 136
+      height: 241
+    <Json>k__BackingField: '{"_nextDataIds":["185ec5a4-7f8b-4d30-8db1-77d900d0240f"],"_messageList":["No,
+      I can''t."],"_speaker":"{MainName}","_animation":{"rid":1000},"references":{"version":2,"RefIds":[{"rid":1000,"type":{"class":"DefaultAnimation","ns":"ConversationGraph.Runtime.Core.Animation","asm":"ConversationGraph.Runtime"},"data":{}}]}}'
   _edges:
-  - <Id>k__BackingField: 36644fee6e1348498627141a37f4a676
+  - <Id>k__BackingField: 0cd631d499f34d71904beae02fbaf389
     <BaseNodeId>k__BackingField: 91b8ea1a-e77f-4287-895c-5929314edefd:0
     <TargetNodeId>k__BackingField: 2f702667-74b1-481e-840c-0ffc84fefe1d:0
-  - <Id>k__BackingField: 34ac66ef3f9943a0ba45ac3f28816351
+  - <Id>k__BackingField: 89fcca1b7b6e4c95a2e2dc64fa9da85e
     <BaseNodeId>k__BackingField: 2f702667-74b1-481e-840c-0ffc84fefe1d:0
     <TargetNodeId>k__BackingField: de9410ce-af62-43a1-8f37-05ef6e87f2b6:0
-  - <Id>k__BackingField: a55b234072a644c7865b8796cfd1b75b
-    <BaseNodeId>k__BackingField: de9410ce-af62-43a1-8f37-05ef6e87f2b6:0
-    <TargetNodeId>k__BackingField: b10877ba-f73f-4d43-9bf9-0452e4764f52:0
-  - <Id>k__BackingField: be866b2be909430b84831f7b38812698
+  - <Id>k__BackingField: 902792af73bc422cab0e862846ba51ea
     <BaseNodeId>k__BackingField: b10877ba-f73f-4d43-9bf9-0452e4764f52:0
     <TargetNodeId>k__BackingField: 185ec5a4-7f8b-4d30-8db1-77d900d0240f:0
-  - <Id>k__BackingField: d68fe771f5cf431f8d83338bcee66fa8
+  - <Id>k__BackingField: 39b15173daf341e99f4cea806e39dfbe
     <BaseNodeId>k__BackingField: c19fbaec-2524-443d-808e-1ee9fa4ca62f:0
     <TargetNodeId>k__BackingField: 61833c12-fc84-4e4f-82ef-dc141fe9434e:0
-  - <Id>k__BackingField: 02c506d8976c4c40abae44698cd9d4a6
+  - <Id>k__BackingField: 84637f86929244ebb11b9a6417dbf996
     <BaseNodeId>k__BackingField: d5e6cd94-895a-4488-98b8-3d49a7d459c3:0
     <TargetNodeId>k__BackingField: c19fbaec-2524-443d-808e-1ee9fa4ca62f:0
-  - <Id>k__BackingField: 1a564fe74d7b47af8ca1e0b70475ca00
+  - <Id>k__BackingField: 083037d0a731412784bade6094a7a0db
     <BaseNodeId>k__BackingField: 61833c12-fc84-4e4f-82ef-dc141fe9434e:0
     <TargetNodeId>k__BackingField: b994f76a-26e1-427f-be24-c3ed3bbec796:0
-  - <Id>k__BackingField: c6b3fda4ec21485ea76f29d6d2861995
+  - <Id>k__BackingField: 33fb0f73e40046d0a68787ae2e4d20bc
     <BaseNodeId>k__BackingField: b994f76a-26e1-427f-be24-c3ed3bbec796:0
     <TargetNodeId>k__BackingField: d67dc40e-103a-498b-b1e6-7f127f7e810d:0
-  - <Id>k__BackingField: bc876419c9c8432fad7c0eecbfeaff8a
+  - <Id>k__BackingField: 87ad825c5d0347968eda8b6b874bd49c
     <BaseNodeId>k__BackingField: d67dc40e-103a-498b-b1e6-7f127f7e810d:0
     <TargetNodeId>k__BackingField: 91b8ea1a-e77f-4287-895c-5929314edefd:0
+  - <Id>k__BackingField: 6a2040d9a94e41b298ecaaabb55e78b2
+    <BaseNodeId>k__BackingField: de9410ce-af62-43a1-8f37-05ef6e87f2b6:0
+    <TargetNodeId>k__BackingField: 9dddc5c6-b51e-40f2-9dfe-672ae4cd7f88:0
+  - <Id>k__BackingField: 49df2170a9a64560b09abc80246b2c30
+    <BaseNodeId>k__BackingField: 9dddc5c6-b51e-40f2-9dfe-672ae4cd7f88:0
+    <TargetNodeId>k__BackingField: b10877ba-f73f-4d43-9bf9-0452e4764f52:0
+  - <Id>k__BackingField: 581eba1259c5496c8fafe6c04f7fb579
+    <BaseNodeId>k__BackingField: 9dddc5c6-b51e-40f2-9dfe-672ae4cd7f88:1
+    <TargetNodeId>k__BackingField: a4eaf25f-429d-48f7-9ba1-8651e2bd197c:0
+  - <Id>k__BackingField: bdebd2e04f2c47dc925f8701abc460eb
+    <BaseNodeId>k__BackingField: a4eaf25f-429d-48f7-9ba1-8651e2bd197c:0
+    <TargetNodeId>k__BackingField: 185ec5a4-7f8b-4d30-8db1-77d900d0240f:0
   _scriptableConversationDictionary:
     _keys: []
     _values: []
@@ -184,6 +212,8 @@ MonoBehaviour:
     - b10877ba-f73f-4d43-9bf9-0452e4764f52
     - c19fbaec-2524-443d-808e-1ee9fa4ca62f
     - d67dc40e-103a-498b-b1e6-7f127f7e810d
+    - 9dddc5c6-b51e-40f2-9dfe-672ae4cd7f88
+    - a4eaf25f-429d-48f7-9ba1-8651e2bd197c
     _values:
     - _typeName: ConversationGraph.Runtime.Foundation.StartData
       _json: '{"_nextDataIds":["c19fbaec-2524-443d-808e-1ee9fa4ca62f"],"_title":""}'
@@ -204,7 +234,7 @@ MonoBehaviour:
       _json: '{"_nextDataIds":["de9410ce-af62-43a1-8f37-05ef6e87f2b6"],"_messageList":["Thank
         you, Leader.","But not at all..."],"_speaker":"{MainName}","_animation":{"rid":1000},"references":{"version":2,"RefIds":[{"rid":1000,"type":{"class":"DefaultAnimation","ns":"ConversationGraph.Runtime.Core.Animation","asm":"ConversationGraph.Runtime"},"data":{}}]}}'
     - _typeName: ConversationGraph.Runtime.Foundation.MessageData
-      _json: '{"_nextDataIds":["b10877ba-f73f-4d43-9bf9-0452e4764f52"],"_messageList":["That''s
+      _json: '{"_nextDataIds":["9dddc5c6-b51e-40f2-9dfe-672ae4cd7f88"],"_messageList":["That''s
         not true.","There is still a lot of room for growth.\nLet''s work together."],"_speaker":"{Lead}","_animation":{"rid":1000},"references":{"version":2,"RefIds":[{"rid":1000,"type":{"class":"DefaultAnimation","ns":"ConversationGraph.Runtime.Core.Animation","asm":"ConversationGraph.Runtime"},"data":{}}]}}'
     - _typeName: ConversationGraph.Runtime.Foundation.MessageData
       _json: '{"_nextDataIds":["185ec5a4-7f8b-4d30-8db1-77d900d0240f"],"_messageList":["Yes,
@@ -213,6 +243,11 @@ MonoBehaviour:
       _json: '{"_nextDataIds":["61833c12-fc84-4e4f-82ef-dc141fe9434e"],"_assetGuid":"21755467c1b6aa24a91bf33ed4299f64"}'
     - _typeName: ConversationGraph.Runtime.Foundation.TimelineData
       _json: '{"_nextDataIds":["91b8ea1a-e77f-4287-895c-5929314edefd"],"_assetGuid":"f84ec536a78e83d42b85b359942e0920"}'
+    - _typeName: ConversationGraph.Runtime.Foundation.SelectData
+      _json: '{"_nextDataIds":["b10877ba-f73f-4d43-9bf9-0452e4764f52","a4eaf25f-429d-48f7-9ba1-8651e2bd197c"],"_selectTexts":["Yes!","No..."]}'
+    - _typeName: ConversationGraph.Runtime.Foundation.MessageData
+      _json: '{"_nextDataIds":["185ec5a4-7f8b-4d30-8db1-77d900d0240f"],"_messageList":["No,
+        I can''t."],"_speaker":"{MainName}","_animation":{"rid":1000},"references":{"version":2,"RefIds":[{"rid":1000,"type":{"class":"DefaultAnimation","ns":"ConversationGraph.Runtime.Core.Animation","asm":"ConversationGraph.Runtime"},"data":{}}]}}'
   _scriptableConversations:
     _keys: []
     _values: []

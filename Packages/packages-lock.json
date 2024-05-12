@@ -23,7 +23,7 @@
         "com.unity.dt.app-ui": "1.0.1",
         "com.mackysoft.serializereference-extensions": "https://github.com/mackysoft/Unity-SerializeReferenceExtensions.git?path=Assets/MackySoft/MackySoft.SerializeReferenceExtensions"
       },
-      "hash": "2511bfc4e1df035965128e2752d1aca511f32c0f"
+      "hash": "3c810d579d8ea49175947f43aa9ae6232022d906"
     },
     "com.unity.2d.animation": {
       "version": "9.1.0",
